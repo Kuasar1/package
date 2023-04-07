@@ -1,0 +1,23 @@
+{
+  "name": "siro-elastic",
+  "version": "1.0.10",
+  "description": "Elasticsearch and APM implementation for Siro platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Chinzorig Javzandolgor",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.6.0",
+    "@nestjs/common": "^9.3.12",
+    "elastic-apm-node": "^3.43.0"
+  },
+  "devDependencies": {
+    "@types/elasticsearch": "^5.0.40",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
